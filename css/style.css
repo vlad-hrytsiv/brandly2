@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 90px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    align-items: center;
+}
+
+.site-navigation {
+    display: flex;
+    font-size: 18px;
+}
+
+.menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 76px;
+}
+
+.menu-item:first-child {
+    margin-left: 0px;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    transition: .2s;
+    color: #e6e6e6;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 90px;
+    height: 932px;
+
+    background: #9d9ea4 url(../img/background.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.introduction-inner {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.sale-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 12px;
+
+    margin-bottom: 50px;
+}
+
+.proposal-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+
+    margin-bottom: 50px;
+}
+
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+
+    margin-bottom: 54px;
+}
+
+.button-default {
+    display: inline-block;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+
+    border: 2px solid white;
+    border-radius: 3px;
+
+    padding: 21px 48px;
+}
+
+.button-default:hover,
+.button-default:focus {
+    background-color: #ffffff;
+    color: #323338;
+    transition: .3s;
+}
