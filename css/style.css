@@ -139,7 +139,7 @@ a {
     transition: .3s;
 }
 
-.products-title {
+.section-title {
     padding: 45px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -149,7 +149,7 @@ a {
     color: #333333;
 }
 
-.products-title:before {
+.section-title:before {
     margin-bottom: 20px;
     display: block;
     content: "";
@@ -159,7 +159,7 @@ a {
     margin: 0 auto 15px;
 }
 
-.products-title:after {
+.section-title:after {
     margin-bottom: 20px;
     display: block;
     content: "";
