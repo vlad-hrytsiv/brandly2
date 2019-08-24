@@ -149,6 +149,26 @@ a {
     color: #333333;
 }
 
+.products-title:before {
+    margin-bottom: 20px;
+    display: block;
+    content: "";
+    height: 3px;
+    background-color: #dc0000;
+    width: 113px;
+    margin: 0 auto 15px;
+}
+
+.products-title:after {
+    margin-bottom: 20px;
+    display: block;
+    content: "";
+    height: 3px;
+    background-color: #dc0000;
+    width: 113px;
+    margin: 15px auto 0;
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;
