@@ -177,7 +177,6 @@ a {
 
 .product-item {
     margin-right: 30px;
-    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
@@ -185,11 +184,13 @@ a {
 .product-item.type-one {
     width: 370px;
     height: 418px;
+    margin-bottom: 30px;
 }
 
 .product-item.type-two {
     width: 570px;
     height: 418px;
+    margin-bottom: 60px;
 }
 
 .product-item.type-one:nth-child(3){
@@ -265,4 +266,55 @@ a {
     background-color: #ffffff;
     width: 192px;
     margin: 15px auto 0;
+}
+
+.trending-items {
+    height: 918px;
+
+    background: #f6f6f6 url(../img/trending-section-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.trending-items-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trending-items-description {
+    width: 570px;
+}
+
+.trending-items-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #dc0000;
+}
+
+.trending-items-collection {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+
+    margin-top: 20px;
+}
+
+.trending-items-collection:after {
+    content: "";
+    margin: 20px 0;
+    display: block;
+    height: 1px;
+    background-color: #000000;
+    width: 30px;
+}
+
+.trending-items-review {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #777777;
 }
