@@ -439,3 +439,23 @@ a {
     content: "";
     display: block;
 }
+
+.news-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #18202f url(../img/news-subscription-background.jpg) center no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.subscribe-proposal {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
