@@ -380,6 +380,11 @@ a {
     height: 50px;
 }
 
+.blog-button {
+    display: block;
+    padding: 15px 35px;
+}
+
 .blog-previews {
     display: flex;
     flex-direction: row;
